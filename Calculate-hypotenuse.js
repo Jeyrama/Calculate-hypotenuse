@@ -20,3 +20,5 @@ function calculateHypotenuse(a,b){
   if (!+a || !+b || typeof(a) != 'number' || typeof(b) != 'number' || a<0 || b<0) throw 'error';
   return Math.sqrt(a*a + b*b).toFixed(3);
 }
+
+// or
