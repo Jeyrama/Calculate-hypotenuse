@@ -22,3 +22,10 @@ function calculateHypotenuse(a,b){
 }
 
 // or
+
+function calculateHypotenuse(a,b){
+  if( typeof a === 'number'
+    && typeof b === 'number'
+    && a > 0 && b > 0 ) return (Math.sqrt(Math.pow(a,2) + Math.pow(b,2))).toFixed(3) 
+    else throw("Something is wrong!");
+}
