@@ -12,3 +12,6 @@ calculateHypotenuse(3,4); // returns 5
 calculateHypotenuse(-2,1); // throws error
 calculateHypotenuse("one", "two"); // throws error
 */
+
+
+// Solution
